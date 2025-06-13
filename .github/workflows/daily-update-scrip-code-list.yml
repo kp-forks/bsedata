@@ -1,8 +1,7 @@
 name: update-scrip-code-list
 
 on:
-  schedule:
-    - cron: '20 1 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
